@@ -58,7 +58,21 @@ const financialOrg = Object.create({}, {
         enumerable: false
     },
 
+purchase:{
+    value: function(symbol,shares, evaluation){
+let purchasedstock = {
+    company: symbol,
+    quantity: quantity,
+    price:price
+};
+financialOrg.portfolio.push(purchasedstock);
 
+financialOrg.purchasedstock ("sbx",3,100);
+
+        console.log(purchasedStock);
+    },
+    enumerable: false
+},
 
 });
-financialOrg.portfolioValue()
+//financialOrg.portfolio()
